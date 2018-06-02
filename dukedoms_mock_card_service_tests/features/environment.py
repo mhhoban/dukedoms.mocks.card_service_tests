@@ -18,6 +18,6 @@ def before_scenario(context, step):
         load_file(
             'specs/mock_card_service_api.yaml',
         ),
-        origin_url='mock-card-service',
+        origin_url='http://mock-card-service:8080',
         config=config
     )
